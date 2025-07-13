@@ -100,6 +100,11 @@
 
          let additionOfToDOs = () => {
             console.log(accessInputField.value); // After add btn click then whatever the user enter on the inputField reflect on console;
+            
+            let pElem = document.createElement('p');
+            pElem.textContent = accessInputField.value;
+            console.log(pElem); // After add btn click => <p>adfasdfasdf</p>
+            
          };
 
          /*// // // Ending of writing function to add ToDos.*/
