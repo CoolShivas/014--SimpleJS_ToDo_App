@@ -92,13 +92,27 @@
         /*// // // Ending of accessing the id's and classes by it's name.*/
 
 
+
+//////---------------------------------------------------------------------------------------------///////        
+
+
+         /*// // // Starting of writing function to add ToDos.*/
+
+         let additionOfToDOs = () => {
+            console.log(accessInputField.value); // After add btn click then whatever the user enter on the inputField reflect on console;
+         };
+
+         /*// // // Ending of writing function to add ToDos.*/
+
+
 //////---------------------------------------------------------------------------------------------///////        
 
 
          /*// // // Starting of firing the event listener on add button.*/
 
          accessAddBtn.addEventListener('click', (() => {
-            console.log("Add Button Click"); // Add Button Click
+            // console.log("Add Button Click"); // Add Button Click
+            additionOfToDOs(); // Function Invocation or Calling;
          }));
 
           /*// // // Starting of firing the event listener on add button.*/
