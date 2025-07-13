@@ -86,8 +86,11 @@
         let accessAddBtn = document.querySelector(".add_Btn");
         console.log(accessAddBtn); // <button class="add_Btn">Add</button>
 
-        let accessListToDos = document.getElementsByClassName("listOfToDos");
-        console.log(accessListToDos); // HTMLCollection [div.listOfToDos]
+        // let accessListToDos = document.getElementsByClassName("listOfToDos");
+        // console.log(accessListToDos); // HTMLCollection [div.listOfToDos]; Here, we are unable to access the div and p tag;
+
+        let accessListToDos = document.querySelector(".listOfToDos");
+        console.log(accessListToDos); // <div class="listOfToDos"></div> ; Here, previously we are not able to access the p tag i.e., inside the div tag;
 
         /*// // // Ending of accessing the id's and classes by it's name.*/
 
