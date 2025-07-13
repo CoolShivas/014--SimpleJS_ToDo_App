@@ -131,7 +131,12 @@
 
 
          accessListToDos.addEventListener("click", ((event) => {
-            console.log(event.target); // Targeting the p tag by mouse click;          
+            console.log(event.target); // Targeting the p tag by mouse click; 
+            
+            let delAddedListToDos = event.target; // Assigning the delAddedListToDos to set the event.target;
+
+            delAddedListToDos.remove(); // Removing the pElem from the listToDos div in the p tag; And, get removed from the screen;
+
         }));
 
 
